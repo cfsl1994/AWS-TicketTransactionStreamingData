@@ -18,3 +18,7 @@ This guide will assist in configuring the laboratory environment for real-time T
 #### Data stream configuration
     - Data stream name -> TicketTransactionStreamingDataKinesis
     - All default configuration
+
+#### Data stream capacity
+    - Provisioned shard -> 2
+    - All default configuration
