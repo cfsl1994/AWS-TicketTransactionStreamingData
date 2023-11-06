@@ -52,3 +52,12 @@ This guide will assist in configuring the laboratory environment for real-time T
     - Language -> 3
     - Worker type -> G 1x
     - Requested number of workers -> 2
+
+#### Crawler Properties
+    - Name -> TicketTransactionParquetDataCrawler
+    - Database -> tickettransactiondatabase
+    - Table prefix -> parquet_
+    - Time -> Every hour
+    - Data sources -> YOUR_S3
+    - Parameters -> Recrawl all
+
