@@ -85,3 +85,6 @@ This guide will assist in configuring the laboratory environment for real-time T
     WHERE ingest_year='2023'
     GROUP BY sourceip
     Order by numberOfTransactions DESC;
+
+## Architecture-Diagram
+![Architecture Diagram](TicketTransactionStreamingData.jpg)
