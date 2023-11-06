@@ -61,3 +61,9 @@ This guide will assist in configuring the laboratory environment for real-time T
     - Data sources -> YOUR_S3
     - Parameters -> Recrawl all
 
+### AWS ATHENA
+
+#### Query editor
+    - Data source -> AwsDataCatalog
+    - Database -> tickettransactiondatabase
+    - Tables and views -> parquet_tickettransactionstreamingdata
