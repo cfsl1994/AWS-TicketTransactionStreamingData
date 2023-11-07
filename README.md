@@ -8,10 +8,11 @@
 In this lab is a data pipeline how to ingest, process, and consume streaming data using AWS serverless services such as Kinesis Data Streams, Glue, S3, and Athena. 
 To simulate the data streaming input usinge AWS SDK.
 
-- Google Colab: Who generate real time data for Ticket Transaccion (TicketTransactionStreamingData.py).
-- One Amazon Simple Storage Service (Amazon S3) buckets: You will use these buckets to .
-- ???????.
-- ???????.
+- Google Colab: Generates real-time data for the Ticket Transaction (TicketTransactionStreamingData.py).
+- AWS Kinesis Data Stream: Receives data from Google Colab.
+- AWS Glue: Transforms streaming data from JSON to Parquet and stores it in Amazon Simple Storage Service (Amazon S3).
+- One Amazon Simple Storage Service (Amazon S3) bucket: You will use this bucket to store data transformed into Parquet format.
+- AWS Athena: We'll use this tool for performing queries and saving the results in S3.
 
 ## Setup
 ###  AWS KINESIS DATA STREAM:
