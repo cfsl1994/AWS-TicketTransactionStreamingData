@@ -5,7 +5,8 @@
 - [Architecture-Diagram](##Architecture-Diagram)
 
 ## Introduction
-This guide will assist in configuring the laboratory environment for real-time Ticket Transaction Streaming Data, emphasizing its practical application.
+In this lab is a data pipeline how to ingest, process, and consume streaming data using AWS serverless services such as Kinesis Data Streams, Glue, S3, and Athena. 
+To simulate the data streaming input usinge AWS SDK.
 
 - Google Colab: Who generate real time data for Ticket Transaccion (TicketTransactionStreamingData.py).
 - One Amazon Simple Storage Service (Amazon S3) buckets: You will use these buckets to .
